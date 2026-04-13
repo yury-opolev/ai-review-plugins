@@ -1,0 +1,19 @@
+{
+  "name": "security-review",
+  "version": "1.0.0",
+  "description": "OWASP Top 10:2025 security review. Dispatches 10 parallel sub-agents to audit a PR or codebase with four-axis priority ranking (Severity x Exploitability x Exposure x Confidence -> Priority P0-P4).",
+  "author": {
+    "name": "yury-opolev"
+  },
+  "repository": "https://github.com/yury-opolev/ai-review-plugins",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "owasp",
+    "code-review",
+    "audit",
+    "pr-review",
+    "sast",
+    "vulnerability"
+  ]
+}

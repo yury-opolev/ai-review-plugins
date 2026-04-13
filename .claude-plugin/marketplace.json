@@ -1,0 +1,18 @@
+{
+  "name": "ai-review-plugins",
+  "description": "AI-powered code review plugins for Claude Code. Currently ships the security-review plugin (OWASP Top 10:2025 audit with 10 parallel sub-agents and four-axis priority ranking).",
+  "owner": {
+    "name": "yury-opolev"
+  },
+  "plugins": [
+    {
+      "name": "security-review",
+      "description": "OWASP Top 10:2025 security review. Dispatches 10 parallel sub-agents to audit a PR or codebase with four-axis priority ranking (Severity x Exploitability x Exposure x Confidence -> Priority P0-P4).",
+      "version": "1.0.0",
+      "source": "./plugins/security-review",
+      "author": {
+        "name": "yury-opolev"
+      }
+    }
+  ]
+}
